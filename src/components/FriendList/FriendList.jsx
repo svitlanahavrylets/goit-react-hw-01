@@ -1,4 +1,4 @@
-import FriendListItem from "../FriendListItem/FriendListItem.jsx";
+import FriendListItem from "../FriendListItem/FriendListItem";
 
 const FriendList = ({ friends }) => {
   return (
@@ -8,10 +8,9 @@ const FriendList = ({ friends }) => {
         return (
           <li key={friendItem.id}>
             <FriendListItem
-              friendItem={friendItem}
-              // avatar={friendItem.avatar}
-              // name={friendItem.name}
-              // isOnline={friendItem.isOnline}
+              avatar={friendItem.avatar}
+              name={friendItem.name}
+              isOnline={friendItem.isOnline}
             />
           </li>
         );
