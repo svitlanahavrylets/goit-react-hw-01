@@ -4,7 +4,6 @@ import userData from "./data/userData.json";
 import friends from "./data/friends.json";
 import transactions from "./data/transactions.json";
 import TransactionHistory from "./components/TransactionHistory/TransactionHistory";
-
 const App = () => {
   return (
     <>

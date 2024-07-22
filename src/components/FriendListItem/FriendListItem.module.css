@@ -4,3 +4,6 @@
 .offline {
   color: red;
 }
+.name {
+  font-weight: bold;
+}

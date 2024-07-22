@@ -1,0 +1,40 @@
+.container {
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 10px;
+  max-width: 550px;
+  text-align: center;
+  background-color: #fff;
+  margin: 50px;
+}
+.image {
+  object-fit: cover;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin: 16px auto;
+}
+.name {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+.tag {
+  color: #808080;
+}
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+.list {
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+}
+.item {
+  display: flex;
+  flex-direction: column;
+}
+.number {
+  font-weight: bold;
+}
